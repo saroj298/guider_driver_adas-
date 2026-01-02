@@ -6,4 +6,5 @@ We do not track generated build artifacts in Git. To keep the `build/` folder vi
 
 - `.gitignore` — ignores all generated files inside `build/` but keeps this README and the `.gitignore` itself tracked.
 
-If you need to add a specific generated artifact intentionally, first discuss with the team. Generally keep build outputs out of source control.
+If you need to add a specific generated artifact intentionally, first discuss. I generally keeped build outputs out of source control.
+
