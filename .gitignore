@@ -1,0 +1,30 @@
+# Ignore local editor settings and IDE folders
+.vscode/
+
+# Ignore other local clones or local helper folders
+guider_driver_adas-/
+
+# Build artifacts
+build/
+*.exe
+*.o
+*.obj
+*.out
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# CMake files (if you want to ignore generated CMake cache etc at root)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Keep README and .gitkeep tracked in directories
+!build/README.md
+!build/.gitignore
+!inc/.gitkeep
+!src/.gitkeep
+!inc/README.md
+!src/README.md
