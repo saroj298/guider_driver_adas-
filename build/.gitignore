@@ -1,0 +1,5 @@
+# Ignore everything in this build directory (generated files)
+*
+# keep these files tracked so the folder exists in the repo
+!.gitignore
+!README.md
